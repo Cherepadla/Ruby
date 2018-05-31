@@ -16,3 +16,4 @@ num_guesses = 0 # Количество попыток
 puts "Тебе осталось #{10 - num_guesses} попыток" 
 print "Введи число: "
 guess = gets.to_i
+#dsfasdf
