@@ -9,4 +9,4 @@ elsif
     puts "Ваше число меньше 10"
     
 end
-print input," ", input.class
+print "Ваше число #{input} !" , input.class
