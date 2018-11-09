@@ -1,6 +1,6 @@
 class Transport
     attr_accessor :color, :wheels
-    
+
     def sayBipBip
         puts"Bip! Bip!"
     end
