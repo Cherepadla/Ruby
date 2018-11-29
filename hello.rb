@@ -1,8 +1,8 @@
-#Давайте поприветствуем Матца
+# Давайте поприветствуем Матца
 
-puts "Hello Matzzzzz!"
-puts "Hello, " << "Matz !" * 3
+puts 'Hello Matzzzzz!'
+puts 'Hello, Привет !!' << 'Matz !' * 3
 
-5.times {print "Yello Mutzz"}
+5.times {print 'Yello Mutzz'}
 
 puts "Hey Mutz, I'm running " + `ruby -v`
