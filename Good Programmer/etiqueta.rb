@@ -7,10 +7,10 @@ class Etiqueta < FXMainWindow
     FXLabel.new(self,"Привет  ?", :opts=>LAYOUT_EXPLICIT, :width=>100, :height=>100, :x=>20, :y=>20)
     FXLabel.new(self,"Label FXRuby", :opts=>LAYOUT_EXPLICIT, :width=>100, :height=>100, :x=>20, :y=>120)
   end
-def create
-  super
-  show(PLACEMENT_SCREEN)
-end
+  def create
+   super
+   show(PLACEMENT_SCREEN)
+  end
 end
 
 app = FXApp.new
